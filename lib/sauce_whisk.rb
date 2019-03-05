@@ -14,7 +14,7 @@ require 'logger'
 module SauceWhisk
 
   def self.base_url
-    "https://saucelabs.com/rest/v1"
+    "https://eu-central-1.saucelabs.com/rest/v1/"
   end
 
   def self.username= username
